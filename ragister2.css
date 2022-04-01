@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+    color: green;
+    /* margin-top: 10%; */
+    width: 30%;
+    background-color: rgba(65, 214, 214, 0.685);
+    padding: 60px 40px 60px 40px;
+    margin-left: 30%;
+    /* transition: .3s ease-out; */
+    border-radius: 20px;
+}
+h1.lgn{
+    text-align: center;
+    color: red;
+    margin-top: 5%;
+    background-color: transparent;
+   
+    
+}
+h1.rts{
+    text-align: center;
+    color: green;
+    /* margin-top: 5%; */
+    background-color: transparent;
+   
+    
+}
+form{
+    text-align: center;
+   /* margin-top: 2%; */
+}
+ form input{
+     margin: 10px;
+     padding: 10px 15rem 10px 10px;
+ }
+
+ form .btn{
+ color: white;
+ padding: 10px 10rem 10px 10rem;
+ margin-top: 70px;
+    background-color: rgb(18, 212, 18);
+    border-radius: 5px;
+    font-size: 15px;
+ }
+
+ form .btn:hover{
+    background-color: rgba(18, 212, 18, 0.637);
+ }
+
+ form a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 14rem;
+ }
+ form a:hover{
+     color: red;
+ }
