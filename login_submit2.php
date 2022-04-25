@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 $db_hostname="127.0.0.1";
 $db_username="root";
 $db_password="";
@@ -21,12 +21,20 @@ if(!$result){
     exit;
 }
 ?>
-<h1 style="color:red; text-transform:capitalize;"><?php
+<h1 style="color:red; text-transform:capitalize;">
+
+<?php
 
 while($row=mysqli_fetch_assoc($result)){
     // echo $row['name']."<br>";
-    echo" Welcome....,".$row['fname'];
+    echo" Welcome....,".$row['fname'].$row['lname'];
 }
+?>
+<br>
+<form action="logout.php">
+    <input type="submit" value="Logout" style="background-color: blue;color: white;margin: 10px;padding: 5px 20px 5px 20px;">
+</form>
+<?php
 
 mysqli_close($conn);
 

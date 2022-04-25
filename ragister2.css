@@ -18,17 +18,14 @@ h1.lgn{
     color: red;
     margin-top: 5%;
     background-color: transparent;
-   
-    
 }
 h1.rts{
     text-align: center;
     color: green;
     /* margin-top: 5%; */
-    background-color: transparent;
-   
-    
+    background-color: transparent;   
 }
+
 form{
     text-align: center;
    /* margin-top: 2%; */
@@ -36,6 +33,10 @@ form{
  form input{
      margin: 10px;
      padding: 10px 15rem 10px 10px;
+ }
+ form select{
+     padding: 7px 8rem 7px 8rem;
+     /* color: red; */
  }
 
  form .btn{
@@ -55,7 +56,10 @@ form{
     text-align: center;
     text-decoration: none;
     margin-left: 14rem;
+    
  }
  form a:hover{
      color: red;
+     transition:.1s;
+     border-bottom: 2px solid blue;
  }

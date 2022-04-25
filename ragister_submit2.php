@@ -34,6 +34,7 @@ $password=$_POST["password"];
 $gender=$_POST["gender"];
 $interest=$_POST["interest"];
 $city=$_POST["city"];
+
 $sql="INSERT INTO `players` (`fname`, `mname`, `lname`, `email`, `password`, `gender`, `interest`, `city`) VALUES ('$fname', '$mname', '$lname', '$email', '$password', '$gender', '$interest', '$city')";
 
 $result=mysqli_query($conn,$sql);

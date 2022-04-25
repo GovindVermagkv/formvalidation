@@ -18,7 +18,7 @@
 <input type="password" name="password" placeholder="Password"><br>
 
 
-<select name="gender" id="gender" placeholder="Select">
+<select  name="gender" id="gender" placeholder="Select">
             <option value="male">Male</option>
             <option value="female">Female</option>
             <option value="other">Other</option>
@@ -28,7 +28,7 @@
   <input type="checkbox" name="interest" value="football" />Football
   <input type="checkbox" name="interest" value="Chess" />Chess<br>
 
-  <select name="city" id="city" placeholder="Select">
+  <select  name="city" id="city" placeholder="Select">
             <option value="uttar pradesh">Uttar pradesh</option>
             <option value="bihar">Bihar</option>
             <option value="goa">goa</option>
